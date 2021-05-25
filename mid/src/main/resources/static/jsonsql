@@ -1,0 +1,134 @@
+Address
+{
+  "buildingNo": 0,
+  "id": 0,
+  "street": "string",
+  "user": {
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "authorities": [
+      {
+        "authority": "string"
+      }
+    ],
+    "credentialsNonExpired": true,
+    "enabled": true,
+    "id": 0,
+    "orderList": [
+      {
+        "id": 0,
+        "service": {
+          "description": "string",
+          "id": 0,
+          "name": "string",
+          "orderList": [
+            null
+          ],
+          "price": 0
+        },
+        "serviceId": 0,
+        "userId": 0
+      }
+    ],
+    "password": "string",
+    "roles": [
+      {
+        "authority": "string",
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "username": "string"
+  },
+  "userId": 0
+}
+
+Service
+{
+  "description": "string",
+  "id": 0,
+  "name": "string",
+  "orderList": [
+    {
+      "id": 0,
+      "serviceId": 0,
+      "user": {
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "address": {
+          "buildingNo": 0,
+          "id": 0,
+          "street": "string",
+          "userId": 0
+        },
+        "authorities": [
+          {
+            "authority": "string"
+          }
+        ],
+        "credentialsNonExpired": true,
+        "enabled": true,
+        "id": 0,
+        "orderList": [
+          null
+        ],
+        "password": "string",
+        "roles": [
+          {
+            "authority": "string",
+            "id": 0,
+            "name": "string"
+          }
+        ],
+        "username": "string"
+      },
+      "userId": 0
+    }
+  ],
+  "price": 0
+}
+
+User
+{
+  "accountNonExpired": true,
+  "accountNonLocked": true,
+  "address": {
+    "buildingNo": 0,
+    "id": 0,
+    "street": "string",
+    "userId": 0
+  },
+  "authorities": [
+    {
+      "authority": "string"
+    }
+  ],
+  "credentialsNonExpired": true,
+  "enabled": true,
+  "id": 0,
+  "orderList": [
+    {
+      "id": 0,
+      "service": {
+        "description": "string",
+        "id": 0,
+        "name": "string",
+        "orderList": [
+          null
+        ],
+        "price": 0
+      },
+      "serviceId": 0,
+      "userId": 0
+    }
+  ],
+  "password": "string",
+  "roles": [
+    {
+      "authority": "string",
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "username": "string"
+}
